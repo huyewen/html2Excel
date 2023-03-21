@@ -2,7 +2,7 @@
 import { tagWhiteList, isUnaryTag, tagMap } from './utils.js'
 
 class Node {
-  constructor(tag, attr, type = 1, text = '', children = []) {
+  constructor(tag, attr, type = 0, text = '', children = []) {
     this.tag = tag
     this.attr = attr
     this.type = type
